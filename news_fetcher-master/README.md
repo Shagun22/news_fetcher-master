@@ -18,5 +18,6 @@ http://localhost:3000/api/News/fetchNews?keyword=bitcoin
 
 #Jenkins Job
 
+
 http://18.216.246.227/jenkins/job/news_checker/
 
