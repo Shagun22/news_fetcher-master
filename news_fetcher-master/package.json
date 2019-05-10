@@ -9,9 +9,7 @@
     "lint": "eslint .",
     "prestart": "npm install --unsafe-perm",
     "start": "node .",
-    "posttest": "npm run lint",
-    "test": "mocha --exit --timeout 3000",
-
+    "test": "mocha server/test --exit --timeout 3000"
   },
   "dependencies": {
     "bunyan": "^1.8.12",
