@@ -1,0 +1,6 @@
+{
+	"fetchNews": {
+		"apiKey" :"ccaf5d41cc5140c984818c344edcc14d",
+		"apiUrl" :"https://newsapi.org/v2/top-headlines"
+	}
+}

@@ -1,0 +1,41 @@
+{
+  "name": "News",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "country": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "filterKeyword": {
+      "type": "string"
+    },
+    "newsTitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "sourceUrl": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW",
+      "property":"fetchNews"
+    }
+    
+],
+  "methods": {}
+}
